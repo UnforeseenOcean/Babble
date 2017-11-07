@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>67ef9ec9-dbc3-417f-9603-bf001feac3da</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Babble.py</StartupFile>
+    <StartupFile>Interpreter.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,16 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Babble.py" />
+    <Compile Include="environ.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interpreter.py" />
+    <Compile Include="tests.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="config.json" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

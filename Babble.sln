@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.26430.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Babble", "Babble\Babble.pyproj", "{67EF9EC9-DBC3-417F-9603-BF001FEAC3DA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BabbleServer", "BabbleServer\BabbleServer.csproj", "{582A06E6-4304-4F12-84E8-9119FE8858DA}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "BabbleDatabase", "BabbleDatabase\BabbleDatabase.sqlproj", "{14480B40-EF9A-4109-A6DA-83E23F8D6FF8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +17,16 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{67EF9EC9-DBC3-417F-9603-BF001FEAC3DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{67EF9EC9-DBC3-417F-9603-BF001FEAC3DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{582A06E6-4304-4F12-84E8-9119FE8858DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{582A06E6-4304-4F12-84E8-9119FE8858DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{582A06E6-4304-4F12-84E8-9119FE8858DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{582A06E6-4304-4F12-84E8-9119FE8858DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14480B40-EF9A-4109-A6DA-83E23F8D6FF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14480B40-EF9A-4109-A6DA-83E23F8D6FF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14480B40-EF9A-4109-A6DA-83E23F8D6FF8}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{14480B40-EF9A-4109-A6DA-83E23F8D6FF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14480B40-EF9A-4109-A6DA-83E23F8D6FF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14480B40-EF9A-4109-A6DA-83E23F8D6FF8}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
